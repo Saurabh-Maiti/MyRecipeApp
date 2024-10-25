@@ -54,8 +54,7 @@ fun CategoryScreen(categories: List<Category>) {
         Column{
             Text(
                 "My Recipe App",
-                color = Color(0xFF607D8B),
-                fontSize = 24.sp,
+                color = Color(0xFF607D8B),fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.fillMaxWidth()
